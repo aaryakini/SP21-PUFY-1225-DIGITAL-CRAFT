@@ -11,12 +11,10 @@ body{
 
 .banner{
 	display: flex;
-	flex-flow: column wrap;
 	justify-content: center;
-	height: 180px;
 	background-color: #FCA311;
 	align-items: center;
-	padding: 20px;
+	padding: 25px;
 }
 
 .banner h1{
@@ -63,7 +61,7 @@ body{
 .about{
 	display: flex;
 	flex-flow: column nowrap;
-	background-color: #F5F5F5;
+	background-color: #E0E6F5;
 	flex: 20%;
 	padding: 10px 20px 30px;
 }
@@ -124,21 +122,21 @@ body{
 .heading1{
 	font-family: "Press Start 2P",cursive;
 	font-size: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	color: #EF233C;
 }
 
 .heading2{
 	font-family: "Quicksand",sans-serif;
 	font-size: 22px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	color: #F25467;
 }
 
 .heading3{
 	font-family: "Quicksand",sans-serif;
-	font-size: 16px;
-	margin-bottom: 10px;
+	font-size: 18px;
+	margin-bottom: 5px;
 	color: #F57A89;
 }
 
@@ -188,21 +186,6 @@ a.button:hover{
 	color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
 	display: flex;
 	flex-flow: column nowrap;
@@ -222,36 +205,8 @@ a.button:hover{
 	color: #A3B6E1;
 }
 
-
-
-
-
-
-
-#top
-{
-	padding: 10px;
-	background-color:#006d77;
-	color:#FFFFFF;
-	text-align: center;
-	font-family: Georgia, serif;
+@media screen and (max-width: 700px) {
+  .all, .navbar{   
+    flex-direction: column;
+  }
 }
-
-#top a:link {
-	color: #BADEDB;}
-#top a:visited {color: #BADEDB;}
-#top a:hover {color: #BADEDB;}
-#top a:active {color: #BADEDB;}
-
-#homework
-{
-		color:#808080;
-		font-family: Georgia, serif;
-		font-size: 15px;
-}
-
-#homework a:link {
-	color: #808080;}
-#homework a:visited {color: #808080;}
-#homework a:hover {color: #808080;}
-#homework a:active {color: #808080;}
