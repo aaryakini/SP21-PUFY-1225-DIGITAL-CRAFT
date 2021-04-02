@@ -9,46 +9,6 @@
 </head>
 
 <body>
-	<!--<div id="top" class="top">
-		<div id = "topLeft" class = "topLeft">
-			<button id="search"><input type="text" name="search bar"><img src="data:image/png;base64,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"></button>
-
-			<button id="sections">Sections</button>
-		</div>
-
-		<div class="topCenter">
-			<ul class="mainMenu">
-				<li><a href="https://www.washingtonpost.com/politics/joe-biden-46th-president/?hp_top_nav_first%20100%20days">First 100 Days</a></li>
-
-				<li><a href="https://www.washingtonpost.com/coronavirus/?hp_top_nav_coronavirus">Coronavirus</a></li>
-
-				<li><a href="https://www.washingtonpost.com/race-america/?hp_top_nav_race%20&%20reckoning">Race & Reckoning</a></li>
-
-				<li><a href="https://www.washingtonpost.com/opinions/?hp_top_nav_opinions">Opinions</a></li>
-
-				<li><a href="https://www.washingtonpost.com/national/investigations/?hp_top_nav_investigations">Investigations</a></li>
-
-				<li><a href="https://www.washingtonpost.com/business/technology/?hp_top_nav_tech">Tech</a></li>
-
-				<li><a href="https://www.washingtonpost.com/world/?hp_top_nav_world">World</a></li>
-
-				<li><a href="https://www.washingtonpost.com/local/?hp_top_nav_d.c.,%20md.%20&%20va.">D.C., Md. & Va.</a></li>
-
-				<li><a href="https://www.washingtonpost.com/sports/?hp_top_nav_sports">Sports</a></li>
-
-				<li><a href="https://www.washingtonpost.com/entertainment/?hp_top_nav_arts%20&%20entertainment">Arts & Entertainment</a></li>
-
-			</ul>
-		</div>
-
-		<div class = "topRight">
-			<button id="oneYear">Get one year for $29</button>
-			<button id="signIn">Sign in</button>
-
-		</div>
-		
-	</div> -->
-
 	<div class="top">
 		<div class = "topLeft">
 			<button id="search"><input type="text" name="search bar"><img src="../assets/searchicon.png"></button>
