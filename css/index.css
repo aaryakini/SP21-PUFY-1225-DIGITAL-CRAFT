@@ -64,9 +64,8 @@ body{
 	display: flex;
 	flex-flow: column nowrap;
 	background-color: #F5F5F5;
-	width: 20%;
-	height: 100%;
-	padding: 10px 20px;
+	flex: 20%;
+	padding: 10px 20px 30px;
 }
 
 .about h1{
@@ -118,8 +117,7 @@ body{
 .homework{
 	display: flex;
 	flex-flow: column nowrap;
-	width: 80%;
-	height: 100%;
+	flex: 80%;
 	padding: 10px 40px
 }
 
@@ -149,6 +147,13 @@ body{
 	font-size: 14px;
 	margin-bottom: 10px;
 	color: #D1DAF0;
+}
+
+.week{
+	display:flex;
+	flex-flow: column wrap;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #B2C2E6;
 }
 
 .links{
