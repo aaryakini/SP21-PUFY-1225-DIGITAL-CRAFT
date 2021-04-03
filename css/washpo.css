@@ -8,6 +8,8 @@
 	width: 100%;
 	align-items: center;
 	background-color: #000000;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
 .top a:link {
