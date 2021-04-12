@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+.banner{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	background-color: #EEEEEC;
+	margin-bottom: 20px;
+}
+
+.banner h1{
+	font-family: "Alatsi", sans-serif;
+	font-size: 60px;
+	color: #1d3557;
+	line-height: 55px;
+}
+
+.banner p{
+	font-family: "Times New Roman", sans-serif;
+	font-size: 12px;
+	color: #1d3557;
+	line-height: 35px;
+}
