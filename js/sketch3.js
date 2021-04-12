@@ -17,7 +17,10 @@ function draw() {
 	//smaller circle
 	stroke('black');
 	strokeWeight(3);
-	ellipse(550,450,245,245);
+	ellipse(550,450,240,240);
+
+	//pattern
+	//arc(550,310,140,140,0,180);
 
 	//earring hole
 	noStroke();
@@ -50,7 +53,7 @@ function draw() {
 	//smaller circle
 	stroke('black');
 	strokeWeight(3);
-	ellipse(250,350,245,245);
+	ellipse(250,350,240,240);
 
 	//earring hole
 	noStroke();
