@@ -7,7 +7,7 @@ function draw() {
 	background('grey');
 	noStroke();
 	//fill('#55a630');
-	//rect(100,100,600,600);
+	//rect(100,0,600,800);
 	angleMode(DEGREES);
 
 	//right ear
@@ -20,7 +20,27 @@ function draw() {
 	ellipse(550,450,240,240);
 
 	//pattern
-	//arc(550,310,140,140,0,180);
+	stroke('red');
+	line(550,330,550,570);
+	line(430,450,670,450);
+	stroke('black');
+	noFill();
+	//open up
+	arc(550,365,170,170,0,180);
+	//open down
+	arc(550,535,170,170,180,0);
+	//open right
+	arc(465,450,170,170,270,90);
+	//open left
+	arc(635,450,170,170,90,270);
+	//open NE
+	arc(610,390,170,170,45,225); //550 - 25 + 85 = 610
+	//open SE
+	arc(610,510,170,170,135,315);
+	//open NW
+	arc(490,390,170,170,315,135);
+	//open SW
+	arc(490,510,170,170,225,45);
 
 	//earring hole
 	noStroke();
