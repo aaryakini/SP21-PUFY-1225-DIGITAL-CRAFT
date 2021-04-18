@@ -299,7 +299,7 @@ function draw() {
 	vertex(349,403);
 	vertex(353,377);
 	endShape();
-	/*
+
 	//eye triangles
 	beginShape();
 	vertex(377,362);
@@ -308,64 +308,64 @@ function draw() {
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(405,362);
+	vertex(421,346);
+	vertex(416,372);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(420,374);
+	vertex(489,362);
+	vertex(428,392);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(428,397);
+	vertex(481,417);
+	vertex(427,414);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(425,417);
+	vertex(470,451);
+	vertex(421,425);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(415,428);
+	vertex(429,454);
+	vertex(404,437);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(397,438);
+	vertex(389,489);
+	vertex(379,438);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(356,428);
+	vertex(366,434);
+	vertex(328,473);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(351,425);
+	vertex(345,405);
+	vertex(294,426);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(347,399);
+	vertex(350,382);
+	vertex(310,383);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
-	endShape();*/
+	vertex(350,376);
+	vertex(362,368);
+	vertex(326,325);
+	endShape();
 
 	//under eye
 	beginShape();
@@ -396,58 +396,59 @@ function draw() {
 	vertex(325,643);
 	vertex(216,612);
 	endShape();
-	/*
+	
 	//eyelashes
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(208,529);
+	vertex(222,536);
+	vertex(194,550);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(232,539);
+	vertex(265,548);
+	vertex(229,572);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(355,563);
+	vertex(387,562);
+	vertex(371,602);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(405,561);
+	vertex(416,588);
+	vertex(426,560);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(489,546);
+	vertex(523,538);
+	vertex(523,581);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(563,516);
+	vertex(585,499);
+	vertex(611,535);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(600,489);
+	vertex(618,472);
+	vertex(643,507);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
-	endShape();*/
+	vertex(625,464);
+	vertex(643,442);
+	vertex(723,473);
+	endShape();
 
 	//blue layer
 	translate(trnslt,trnslt);
+
 	//top
 	fill(0,0,255,a);
 	beginShape();
@@ -732,7 +733,7 @@ function draw() {
 	vertex(349,403);
 	vertex(353,377);
 	endShape();
-	/*
+	
 	//eye triangles
 	beginShape();
 	vertex(377,362);
@@ -741,64 +742,64 @@ function draw() {
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(405,362);
+	vertex(421,346);
+	vertex(416,372);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(420,374);
+	vertex(489,362);
+	vertex(428,392);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(428,397);
+	vertex(481,417);
+	vertex(427,414);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(425,417);
+	vertex(470,451);
+	vertex(421,425);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(415,428);
+	vertex(429,454);
+	vertex(404,437);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(397,438);
+	vertex(389,489);
+	vertex(379,438);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(356,428);
+	vertex(366,434);
+	vertex(328,473);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(351,425);
+	vertex(345,405);
+	vertex(294,426);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(347,399);
+	vertex(350,382);
+	vertex(310,383);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
-	endShape();*/
+	vertex(350,376);
+	vertex(362,368);
+	vertex(326,325);
+	endShape();
 
 	//under eye
 	beginShape();
@@ -829,54 +830,54 @@ function draw() {
 	vertex(325,643);
 	vertex(216,612);
 	endShape();
-	/*
+
 	//eyelashes
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(208,529);
+	vertex(222,536);
+	vertex(194,550);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(232,539);
+	vertex(265,548);
+	vertex(229,572);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(355,563);
+	vertex(387,562);
+	vertex(371,602);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(405,561);
+	vertex(416,588);
+	vertex(426,560);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(489,546);
+	vertex(523,538);
+	vertex(523,581);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(563,516);
+	vertex(585,499);
+	vertex(611,535);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
+	vertex(600,489);
+	vertex(618,472);
+	vertex(643,507);
 	endShape();
 
 	beginShape();
-	vertex();
-	vertex();
-	vertex();
-	endShape();*/
+	vertex(625,464);
+	vertex(643,442);
+	vertex(723,473);
+	endShape();
 
 }
