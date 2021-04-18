@@ -9,7 +9,6 @@ function setup(){
 }
 
 function draw() {
-	background('#FFFFFF');
 	noStroke();
 	angleMode(DEGREES);
 
@@ -55,7 +54,9 @@ function draw() {
 	ellipse(332,334,80,80);
 	noStroke();
 
-	translate(xPos,0);
+	translate(xPos+(xPos/2),yPos/2);
+	rotate(rot);
+	translate((-xPos)/2,(-yPos)/2); //does rotating flip the axes??
 
 	//square 2
 	fill(29,29,27);
@@ -99,7 +100,12 @@ function draw() {
 	ellipse(332,334,80,80);
 	noStroke();
 
-	translate(0,yPos);
+	rotate(-rot);
+	translate(-xPos*2,yPos);
+	translate(xPos/2,yPos/2);
+	rotate(rot*3);
+	translate(-xPos/2,-yPos/2);
+
 
 	//square 3
 	fill(29,29,27);
@@ -143,9 +149,13 @@ function draw() {
 	ellipse(332,334,80,80);
 	noStroke();
 
-	translate(-xPos,0);
+	rotate(-(rot*3));
+	translate(xPos,-yPos);
+	translate(xPos/2,yPos/2);
+	rotate(rot*2);
+	translate(-xPos/2,-yPos/2);
 
-	//square 3
+	//square 4
 	fill(29,29,27);
 	rect(0,0,400,400);
 	//yellow
