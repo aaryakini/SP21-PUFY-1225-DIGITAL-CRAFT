@@ -57,12 +57,18 @@ function setup() {
 	} 
 }*/
 
+function keyPressed(){
+	if (keyCode === ENTER){
+		saveCanvas(canvas,'myCanvas','png');
+	}
+}
+
 function draw(){
   
 	background('orange');
 
 	if (keyIsPressed === false){
-		for (let i = 0; i < height; i += 60) {
+		for (let i = 20; i < height - 20; i += 60) {
 			let xDist = -20;
 			let gap = 20;
 			while (xDist < width){
