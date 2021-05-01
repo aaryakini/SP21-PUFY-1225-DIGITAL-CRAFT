@@ -1,53 +1,82 @@
-const fr = 10;
+const fr = 80;
+let j = 30;
+let k = 30;
+let red = 0;
+let blue = 240;
+let counter = 0;
+
 
 function setup() {
+	frameRate(fr);
 	let canvas = createCanvas(800,800);
 	canvas.center('horizontal');
 	colorMode(RGB,255,255,255,1);
-}
-
-function draw() {
-	background('black');
-	circles ();
+	circles();
 }
 
 function circles(){
-	background('white');
-	let red = 255;
+background('white');
+	let red = 240;
 	let blue = 0;
 	let counter = 0
-	for(let i = width*1.5; i >= 30; i -= 30){
+	for(let i = 1200; i >= 30; i -= 30){
 		counter++;
-		console.log(counter); //counting how many circles are made
 		fill(red,0,blue);
-		red = red - 10;
-		blue = blue + 10;
-		//noStroke();
-		stroke('white');
+		red = red - 6;
+		blue = blue + 6;
+		noStroke();
+		//stroke('white');
 		ellipse(400,400,i,i);
-	} 
-}
-
-/*function squares(){
-	background('white');
-	let green = 150;
-	let blue = 100;
-	let counter = 0
-	for(let i = width; i >= 30; i -= 30){
-		counter++;
-		console.log(counter); //counting how many circles are made
-		fill(100,green,blue);
-		green = green - 10;
-		blue = blue + 10;
-		stroke('white');
-		rect((width - i)/2,(width - i)/2,i,i);
-	} 
+	}
 }
 
 function mousePressed(){
-	squares();
+	noLoop();
 }
 
 function mouseReleased(){
-	circles();
-}*/
+	loop();
+}
+
+function keyPressed(){
+	if (keyCode === ENTER) {
+		noLoop();
+	}
+}
+
+function draw() {
+	noFill();
+		if (j <= 1200){
+			if (counter == 1){
+				stroke('black');
+				strokeWeight(2);
+			}
+			else if (counter == 0){
+				stroke('white');
+				strokeWeight(2);
+			}
+			ellipse(400,400,j,j);
+			j = j + 30;
+			if(j > 1200){
+				k = 30;
+				if (counter == 0)
+					counter++;
+				else if (counter == 1)
+					counter--;
+			}
+		}
+
+	else{
+		stroke(red,0,blue);
+		strokeWeight(2);
+		ellipse(400,400,k,k);
+		k = k + 30;
+		red = red + 6;
+		blue = blue - 6;
+		if(k > 1200){
+			j = 30;
+			red = 0;
+			blue = 240;
+		}
+	}
+}
