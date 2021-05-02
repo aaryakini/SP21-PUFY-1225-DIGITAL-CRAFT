@@ -14,7 +14,7 @@ function setup() {
 		a = window.prompt("Black or Gradient background?\nEnter B for black\nEnter G for gradient");
 		if (a == "B" || a =="b"){
 			d = 1;
-			background('black');
+			background(0,0,13);
 		}
 		else if (a == "G" || a =="g"){
 			d = 1;
@@ -35,7 +35,7 @@ function draw(){
 	else{
 		clear();
 		if (a == "B" || a =="b")
-			background('black');
+			background(0,0,13);
 		else if (a == "G" || a == "g")
 			drawGradient();
 		mainCounter = 0;

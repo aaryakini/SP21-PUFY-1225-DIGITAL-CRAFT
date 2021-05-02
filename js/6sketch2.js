@@ -12,6 +12,7 @@ function setup() {
 	let canvas = createCanvas(810,810);
 	canvas.center('horizontal');
 	colorMode(RGB);
+	background('white');
 }
 
 function mousePressed(){
