@@ -25,6 +25,10 @@ function mouseReleased(){
 function keyPressed(){
 	if (keyCode === ENTER) {
 		noLoop();
+		saveCanvas(canvas,'myRadialPattern','png');
+	}
+	else if (keyCode === 32) {
+		loop();
 	}
 }
 
