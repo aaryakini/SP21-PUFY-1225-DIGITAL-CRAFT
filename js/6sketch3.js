@@ -9,12 +9,14 @@ function setup() {
   //noLoop();
   noStroke();
   alert("Flash Warning - Depending on the diameter entered in the next prompt, this sketch may contain colours that flash rapidly! To avoid excessive flashing, enter a smaller diameter.");
-  a = parseInt(window.prompt("Enter circle diameter - "));
+  while (a < 100 || a > 800){
+    a = parseInt(window.prompt("Enter circle diameter (must be > 100 and < 800)"));
+  }
   m = width%a;
 }
 
 function draw() {
-  background('black');
+  background('white');
   //let counter1 = 0;
   for (let i = (m + (a/2)); i <= (width - a/2); i += a) {
   	//counter1++;
