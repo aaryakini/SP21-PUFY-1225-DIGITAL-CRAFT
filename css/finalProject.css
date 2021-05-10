@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+.banner{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.banner h1{
+	font-family: "Alatsi", sans-serif;
+	font-size: 55px;
+	color: #000000;
+	line-height: 55px;
+}
+
+.banner p{
+	font-family: "Didact Gothic", sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	text-align: center;
+}
+
+.p5{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#sketch{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #000000;
+	color:#FFFFFF;
+}
+
+#sketch h1{
+	font-family: "Alatsi", sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+}
+
+#sketch p{
+	font-family: "Didact Gothic", sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}

@@ -29,7 +29,6 @@ function setup() {
 
 function draw() {
   counter++;
-  console.log(counter);
   if(counter < g+1){ //loop flashing gradient 19 times - for 19 years old
     for (let i = (m + (a/2)); i <= (width - a/2); i += a) {
       for (let j = (m + (a/2)); j <= (height - (a/2)); j += a) {
