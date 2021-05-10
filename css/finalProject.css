@@ -1,32 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #FFFFFF;
+}
+
 .banner{
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
 	align-items: center;
 	padding: 25px;
-	background-color: #FFFFFF;
 	margin-bottom: 20px;
 }
 
 .banner h1{
 	font-family: "Alatsi", sans-serif;
-	font-size: 55px;
-	color: #000000;
-	line-height: 55px;
+	font-size: 90px;
+	font-kerning: 100px;
+	color: #fb8500;
+	line-height: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .banner p{
 	font-family: "Didact Gothic", sans-serif;
-	font-size: 12px;
-	color: #000000;
+	font-size: 16px;
+	color: #045E8B;
 	line-height: 20px;
 	text-align: center;
 }
 
-.p5{
+#p5{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -34,25 +45,54 @@
 	text-align: center;
 }
 
-#sketch{
+.sketch{
+	border: 10px solid #14213d;
+	border-radius: 50%;
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
+	width: 550px;
+	height: 550px;
+	margin: 20px 40px;
+	padding: 60px;
 	text-align: center;
-	background-color: #000000;
+	background-color: #005f73;
 	color:#FFFFFF;
 }
 
-#sketch h1{
+.sketch h1{
 	font-family: "Alatsi", sans-serif;
-	font-size: 35px;
-	line-height: 35px;
+	font-size: 50px;
+	line-height: 50px;
+	padding-bottom: 10px;
 }
 
-#sketch p{
+.sketch h2{
 	font-family: "Didact Gothic", sans-serif;
-	font-size: 12px;
-	line-height: 20px;
+	font-size: 14px;
+	line-height: 24px;
 	text-align: center;
+	padding-bottom: 10px;
+	color: #83c5be;
+}
+
+.sketch p{
+	font-family: "Didact Gothic", sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 5px;
+	text-align: center;
+}
+
+.sketch a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.sketch p a:hover {
+	background-color: #fb8500;
+	border-radius: 20px;
+	padding: 5px;
+	color: #FFFFFF;
 }
